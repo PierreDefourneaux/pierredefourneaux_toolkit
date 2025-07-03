@@ -1,0 +1,26 @@
+[project]
+name = "pierredefourneaux_toolkit"
+version = "0.1.0"
+description = "Toolkit Python perso axé IA et Data Engineering"
+authors = [
+  { name = "Pierre Defourneaux" }
+]
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+keywords = ["python", "data-engineering", "sql", "ia", "toolkit"]
+
+[project.dependencies]
+
+[project.optional-dependencies]
+sql = [
+    "sqlalchemy",
+    "pymysql",
+    "pandas",
+    "python-dotenv",
+    "cryptography"
+]
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
