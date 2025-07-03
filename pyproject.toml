@@ -9,8 +9,7 @@ readme = "README.md"
 requires-python = ">=3.8"
 license = { text = "MIT" }
 keywords = ["python", "data-engineering", "sql", "ia", "toolkit"]
-
-[project.dependencies]
+dependencies = []
 
 [project.optional-dependencies]
 sql = [
