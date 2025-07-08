@@ -147,7 +147,7 @@ class SqlManager:
 
             # Append des colonnes normales du csv
             for col, typ in zip(colonnes, types):
-                col_def = f"`{col}` {typ}"
+                col_def = f"`{col}` {typ} NULL" # le code accepte les valeurs nulles
                 colonnes_a_creer.append(col_def)
 
             # Rajouter à la fin de la requete la liste des colonnes constitutives de la clé primaire de la table
