@@ -2,3 +2,5 @@
 __pycache__
 env_toolkit
 .ipynb_checkpoints/
+notebook_tests.ipynb
+test.csv
